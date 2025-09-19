@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 80%;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    caption {
+      font-size: 1.3em;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+
+    thead th {
+      background-color: #e0f7fa;
+      color: #333;
+    }
+
+    tfoot td {
+      background-color: #b2ffe4;
+      font-weight: bold;
+    }
+
+    tbody td {
+      color: #555;
+    }
+    </style>
+<body>
+    <h1>Minha Playlist</h1>
+    <table>
+        <caption>Músicas Favoritas</caption>
+
+        <thead>
+            <tr>
+                <th>Música</th>
+                <th>Artista</th>
+                <th>Género</th>
+                <th>Álbum</th>
+                <th>Ano</th>
+                <th>Duração</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Intro</td>
+                <td>pumapjl, SonoTWS</td>
+                <td>Hip-Hop/Rap</td>
+                <td>Naturalidade EP</td>
+                <td>2022</td>
+                <td>1:14</td>
+            </tr>
+            <tr>
+                <td>Artista Genérico</td>
+                <td>Veigh</td>
+                <td>Trap</td>
+                <td>Eu Venci o Mundo</td>
+                <td>2025</td>
+                <td>2:31</td>
+            </tr>
+            <tr>
+                <td>Cartier Santos Dumont</td>
+                <td>pumapjl, SonoTWS, Febre90s</td>
+                <td>Hip-Hop/Rap</td>
+                <td>Single</td>
+                <td>2025</td>
+                <td>3:15</td>
+            </tr>
+            <tr>
+                <td>Goosebumps</td>
+                <td>Travis Scott</td>
+                <td>Rap/Trap</td>
+                <td>Birds in the Trap Sing McKnight Tracklist</td>
+                <td>2016</td>
+                <td>4:03</td>
+            </tr>
+            <tr>
+    <td>Still Loving You</td>
+    <td>Scorpions</td>
+    <td>Hard Rock</td>
+    <td>Love at First Sting</td>
+    <td>1984</td>
+    <td>6:26</td>
+</tr>
+<tr>
+    <td>Black</td>
+    <td>Pearl Jam</td>
+    <td>Grunge</td>
+    <td>Ten</td>
+    <td>1991</td>
+    <td>5:43</td>
+</tr>
+<tr>
+     <td>Vida Longa, Mundo Pequeno</td>
+    <td>Oriente</td>
+    <td>Rap</td>
+    <td>Desorientado Sem Cortes</td>
+    <td>2011</td>
+    <td>5:16</td>
+</tr>
+<tr>
+   <td>Veterano</td>
+    <td>Chefin, Vinicin, Surfista, Ryuchi e JMVMVO</td>
+    <td>Trap/Funk</td>
+    <td>Single</td>
+    <td>2025</td>
+    <td>4:57</td>
+</tr>
+<tr>
+    <td>Pente 270!</td>
+    <td>Kyan, MU540 & Veigh</td>
+    <td>Rap/Trap</td>
+    <td>Single</td>
+    <td>2025</td>
+    <td>3:41</td>
+</tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total de Músicas: 9</td>
+                <td>Total de Artistas: 15</td>
+                <td>Total de Gêneros: 6</td>
+                <td>Total de Álbuns: 6</td>
+                <td>Anos de Lançamento: 1984-2025</td>
+                <td>Total da playlist: 35 minutos e 52 segundos</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
