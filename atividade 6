@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Bonitinha</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        th, td {
+            border: 1px solid #aaa;
+            padding: 8px;
+            text-align: center;
+        }
+        thead {
+            background-color: #f0f0f0;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tfoot {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Informações dos Alunos</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Matéria Favorita</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Júlia</td>
+                <td>16</td>
+                <td>Física</td>
+            </tr>
+            <tr>
+                <td>Thiago</td>
+                <td>19</td>
+                <td>Matemática</td>
+            </tr>
+            <tr>
+                <td>Ana Laura</td>
+                <td>17</td>
+                <td>Química</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total de Alunos: 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
