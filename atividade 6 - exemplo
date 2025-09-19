@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelinha</title>
+</head>
+<style>
+    
+</style>
+
+<body>
+    <table border="10">
+        <tr> <!-- linha  -->
+            <th> Nome </th> <!-- título/cabeçalho  -->
+            <th> Idade </th> <!-- título/cabeçalho  -->
+            <th> Profissão </th> <!-- título/cabeçalho  -->
+            <th> Nacionalidade </th>
+        </tr> <!-- linha  -->
+        <tr> <!-- linha  -->
+            <td> Júlia </td> <!-- linha/dado  -->
+            <td> 16 </td> <!-- linha/dado  -->
+            <td> Estudante </td> <!-- linha/dado  -->
+            <td> Brasileira </td> <!-- linha/dado  -->
+        </tr>
+        <tr> <!-- linha  -->
+            <td> Nicolas </td> <!-- linha/dado  -->
+            <td> 19 </td> <!-- linha/dado  -->
+            <td> Atendente </td> <!-- linha/dado  -->
+            <td> Brasileiro </td> <!-- linha/dado  -->
+
+        </tr>
+        <tr> <!-- linha  -->
+            <td> Thiago </td> <!-- linha/dado  -->
+            <td> 19 </td> <!-- linha/dado  -->
+            <td> Professor </td> <!-- linha/dado  -->
+            <td> Brasileiro </td> <!-- linha/dado  -->
+
+        </tr>
+        <tr> <!-- linha  -->
+            <td> Guilherme </td> <!-- linha/dado  -->
+            <td> 19 </td> <!-- linha/dado  -->
+            <td> Professor de Jiu-Jitsu </td> <!-- linha/dado  -->
+            <td> Brasileiro </td> <!-- linha/dado  -->
+
+        </tr>
+        <tr> <!-- linha  -->
+            <td> Noah </td> <!-- linha/dado  -->
+            <td> 03 </td> <!-- linha/dado  -->
+            <td> Neném </td> <!-- linha/dado  -->
+            <td> Brasileiro </td> <!-- linha/dado  -->
+
+        </tr>
+
+
+    </table>
+
+</body>
+
+</html>
